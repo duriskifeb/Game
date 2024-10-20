@@ -12,6 +12,6 @@ public class Apps {
         frame.setResizable(false);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        F
+        
     }
 }
