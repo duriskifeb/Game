@@ -122,7 +122,7 @@ public class MainMenu extends JPanel implements ActionListener, KeyListener {
       // bird
       g.drawImage(birdImg, bird.x, bird.y, bird.width, bird.height, null);
 
-      // pipes
+      // pipes loop stage img
       for (Pipe pipe : pipes) {
          g.drawImage(pipe.img, pipe.x, pipe.y, pipe.width, pipe.height, null);
       }
