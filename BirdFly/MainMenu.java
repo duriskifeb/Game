@@ -59,8 +59,8 @@ public class MainMenu extends JPanel implements ActionListener, KeyListener {
    int gravity = 1;
 
    ArrayList<Pipe> pipes;
+   
    Random random = new Random();
-
    Timer gameLoop;
    Timer placePipeTimer;
    boolean gameOver = false;
